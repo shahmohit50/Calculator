@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 45%;
+    height: 95vh;
+    background-color: rgb(5, 5, 5);
+    border-radius: 2%;
+}
+.disPannel{
+    width: 96%;
+    height: 25%;
+    margin: 2%;
+    border-radius: 8%;
+    color: antiquewhite;
+    background-color: rgb(26, 24, 24);
+}
+.task{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+}
+.button-container{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(53, 52, 52);
+    border-radius: 2%;
+    display: flex;
+}
+.numbers{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.onenine{
+    background-color: black;
+    margin: 2%;
+    width: 25%;
+    height: 20%;
+    box-shadow: 0% 2% 1% 2% black;
+    border-radius: 9%;
+    color: aliceblue;
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.zero{
+    background-color: black;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 50%;
+    height: 20%;
+    border-radius: 9%;
+    color: aliceblue;
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.operator{
+    font-size: xx-large;
+    color: aliceblue;
+    width: 30%;
+    height: 100%;
+
+}
+.operation{
+    width: 100%;
+    height: 19%;
+    background-color: rgb(100, 94, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.2%;
+}
+.equal{
+    width: 100%;
+    height: 20%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10%;
+    margin-top: 2%;
+}

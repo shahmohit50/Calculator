@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div class="container">
+
+        <div class="disPannel">
+            <div class="task" id="task">
+
+            </div>
+
+            <div class="result">
+
+            </div>
+
+        </div>
+
+        <div class="button-container">
+            <div class="numbers">
+                <div class="onenine" onclick="update(1)">1</div>
+                <div class="onenine" onclick="update(2)">2</div>
+                <div class="onenine" onclick="update(3)">3</div>
+                <div class="onenine" onclick="update(4)">4</div>
+                <div class="onenine" onclick="update(5)">5</div>
+                <div class="onenine" onclick="update(6)">6</div>
+                <div class="onenine" onclick="update(7)">7</div>
+                <div class="onenine" onclick="update(8)">8</div>
+                <div class="onenine" onclick="update(9)">9</div>
+                <div class="zero" onclick="update(0)">0</div>
+                <div class="onenine" onclick="clear()">Clear</div>
+            </div>
+            <div class="operator">
+                <div class="operation" onclick="divide()">/</div>
+                <div class="operation" onclick="mul()">*</div>
+                <div class="operation" onclick="minus()">-</div>
+                <div class="operation" onclick="add()">+</div>
+
+                <div class="equal" onclick="equal()"> = </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+</html>

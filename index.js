@@ -30,7 +30,7 @@ function update(parms) {
     var task = document.getElementById("task");
     task.innerHTML += parms; 
 }
-function clear() {
+function clearss() {
     var task = document.getElementById("task");
     task.innerHTML =""; 
     var res =  document.getElementById("result");

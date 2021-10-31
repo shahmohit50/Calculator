@@ -99,3 +99,13 @@ body{
     border-bottom-right-radius: 10%;
     margin-top: 2%;
 }
+.result{
+    margin-top: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-size: xx-large;
+    color: aquamarine;
+}

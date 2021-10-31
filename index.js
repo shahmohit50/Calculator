@@ -19,7 +19,10 @@ function mul() {
 function equal() {
     var task = document.getElementById("task");
     var sum = task.innerHTML;
-    console.log(sum);
+    console.log(eval(sum));
+    var res =  document.getElementById("result");
+    res.innerHTML = eval(sum);
+
     task.innerHTML =""; 
 }
 function update(parms) {
@@ -30,4 +33,6 @@ function update(parms) {
 function clear() {
     var task = document.getElementById("task");
     task.innerHTML =""; 
+    var res =  document.getElementById("result");
+    res.innerHTML = "";
 }
